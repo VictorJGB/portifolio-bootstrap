@@ -11,6 +11,13 @@
       integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
       crossorigin="anonymous"
     />
+
+    <!-- importing the box icons font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
     <title>Portifólio | Victor Jerrysson</title>
   </head>
   <body>
@@ -54,11 +61,11 @@
       id="home"
       class="container-fluid h-100 justify-content-center align-items-center"
     >
-      <div class="row h-100 align-items-center justify-content-center">
+      <div
+        class="container d-flex flex-lg-row gap-5 flex-column-reverse h-100 align-items-center justify-content-center"
+      >
         <!-- text content -->
-        <div
-          class="col-6 px-5 align-items-start justify-content-center text-start"
-        >
+        <div class="col-lg-6 col-12 px-5 text-center text-lg-start">
           <h2 class="h2">Olá,me chamo</h2>
           <h1 class="h1">Victor Jerrysson</h1>
           <h3 class="h3">Desenvolvedor Front-end</h3>
@@ -66,17 +73,33 @@
             Sou apaixonado por tecnologia e como ela conecta as pessoas pelo
             mundo.
           </p>
-          <div class="row align-items-center justify-content-center">
-            <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-regular fa-envelope"></i></a>
+          <div class="icons-wrapper container text-center text-lg-start">
+            <a
+              href="https://www.linkedin.com/in/jerry-dev-084793203"
+              title="linkedin"
+              target="_blank"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+            <a
+              href="https://github.com/VictorJGB"
+              title="github"
+              target="_blank"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://instagram.com/_jerryGB"
+              title="instagram"
+              target="_blank"
+              ><i class="bx bxl-instagram"></i
+            ></a>
           </div>
         </div>
         <!-- text content -->
 
         <!-- img content -->
-        <div class="profile-wrapper col-6">
+        <div
+          class="profile-wrapper col-lg-6 col-12 w-50 align-items-center justify-content-center"
+        >
           <img
             src="./assets//images/profile.png"
             alt="Profile Picture"

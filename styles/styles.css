@@ -1,7 +1,5 @@
 /* Font import Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
-
-/* VARIABLES */
 :root {
   /* Colors */
   --primary-color: #715aff;
@@ -9,12 +7,10 @@
   --white-color: #ffffff;
   --black-color: #000;
   --gray-color: #848482;
-
   /* Font */
   --font-base: "Poppins", sans-serif;
 }
 
-/* BASE CONFIGS */
 body {
   font-family: var(--font-base);
   height: 100vh;
@@ -27,7 +23,6 @@ html {
   font-size: 62.5%;
 }
 
-/* NAVBAR */
 .navbar .navbar-brand {
   font-weight: 700;
   font-size: 3.2rem;
@@ -44,7 +39,6 @@ html {
   color: var(--secondary-color);
 }
 
-/* Home section */
 #home h2 {
   color: var(--black-color);
   font-size: 3.8rem;
@@ -74,4 +68,4 @@ html {
 
 .profile-wrapper img {
   max-width: 90%;
-}
+}/*# sourceMappingURL=styles.css.map */

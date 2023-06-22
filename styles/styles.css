@@ -79,4 +79,13 @@ html {
 
 .profile-wrapper img {
   max-width: 100%;
+}
+
+.btn-linkCV {
+  font-size: 3.2rem;
+  text-decoration: none;
+  color: var(--white-color);
+  padding: 5%;
+  border-radius: 60px;
+  background-color: var(--primary-color);
 }/*# sourceMappingURL=styles.css.map */

@@ -1,3 +1,15 @@
+#navBar {
+  transition: all 0.5s;
+}
+
+// Change color on scroll
+.nav-bar-active {
+  background-color: var(--primary-color);
+  .container {
+    color: var(--white-color);
+  }
+}
+
 .navbar .navbar-brand {
   font-weight: 700;
   font-size: 3.2rem;

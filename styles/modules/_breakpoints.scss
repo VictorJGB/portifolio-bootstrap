@@ -8,7 +8,7 @@ $breakpoints: (
 );
 
 // Respond above.
-@mixin respond-above($breakpoint) {
+@mixin media-breakdown-above($breakpoint) {
   // If the breakpoint exists in the map.
   @if map-has-key($breakpoints, $breakpoint) {
     // Get the breakpoint value.
@@ -26,7 +26,8 @@ $breakpoints: (
   }
 }
 
-@mixin respond-below($breakpoint) {
+// Respond below.
+@mixin media-breakdown-below($breakpoint) {
   // If the breakpoint exists in the map.
   @if map-has-key($breakpoints, $breakpoint) {
     // Get the breakpoint value.

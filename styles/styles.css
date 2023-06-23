@@ -111,14 +111,12 @@ html {
   color: var(--secondary-color);
   font-size: 3.2rem;
   font-weight: 700;
-  text-align: start;
 }
 .about-info .form span {
   color: var(--black-color);
   font-size: 2.6rem;
   font-weight: 700;
   text-align: center;
-  align-self: flex-end;
 }
 
 .btn-knowMore {
@@ -137,8 +135,13 @@ html {
   color: var(--secondary-color);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
   .about-info i {
-    font-size: 20rem;
+    font-size: 30rem;
+  }
+}
+@media (max-width: 767px) {
+  .about-info i {
+    font-size: 18rem;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -23,6 +23,10 @@ html {
   font-size: 62.5%;
 }
 
+section {
+  margin: 3% 0;
+}
+
 #navBar {
   transition: all 0.5s;
 }
@@ -166,4 +170,46 @@ html {
   .about-info i {
     font-size: 18rem;
   }
+}
+#academic {
+  background-color: var(--white-color);
+}
+
+.academic-cards-container .academic-title {
+  font-size: 3.8rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+.card-body {
+  text-align: start;
+}
+.card-body .card-title {
+  font-size: 3.2rem;
+  font-weight: 600;
+  color: var(--secondary-color);
+}
+.card-body .container .card-subtitle {
+  font-size: 2.6rem;
+  font-weight: 500;
+  color: var(--gray-color);
+}
+.card-body .container .card-subtitle i {
+  color: var(--primary-color);
+}
+.card-body .card-text {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--black-color);
+}
+.card-body .btn {
+  font-size: 2.6rem;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+}
+
+.card .card-img-top {
+  -o-object-fit: fill;
+     object-fit: fill;
 }/*# sourceMappingURL=styles.css.map */

@@ -27,6 +27,17 @@ section {
   margin: 3% 0;
 }
 
+.btn.btn-primary {
+  font-size: 2.6rem;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transition: all 0.5s;
+}
+.btn.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
+
 #navBar {
   transition: all 0.5s;
 }
@@ -167,8 +178,8 @@ section {
   }
 }
 @media (max-width: 767px) {
-  .about-info i {
-    font-size: 18rem;
+  .btn-knowMore {
+    font-size: 3.2rem;
   }
 }
 #academic {
@@ -190,12 +201,13 @@ section {
   font-weight: 600;
   color: var(--secondary-color);
 }
-.card-body .container .card-subtitle {
-  font-size: 2.6rem;
+.card-body .container .card-subtitle-wrapper .card-subtitle {
+  font-size: 2.4rem;
   font-weight: 500;
   color: var(--gray-color);
 }
-.card-body .container .card-subtitle i {
+.card-body .container .card-subtitle-wrapper i {
+  font-size: 2.6rem;
   color: var(--primary-color);
 }
 .card-body .card-text {
@@ -203,13 +215,14 @@ section {
   font-weight: 500;
   color: var(--black-color);
 }
-.card-body .btn {
-  font-size: 2.6rem;
-  color: var(--white-color);
-  background-color: var(--primary-color);
-}
 
 .card .card-img-top {
   -o-object-fit: fill;
      object-fit: fill;
+}
+
+@media (max-width: 767px) {
+  .container .card-subtitle-wrapper .card-subtitle {
+    font-size: 1rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

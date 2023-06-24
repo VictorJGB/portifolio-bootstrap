@@ -1,3 +1,5 @@
+@import "./breakpoints";
+
 #academic {
   background-color: var(--white-color);
 }
@@ -20,11 +22,14 @@
     color: var(--secondary-color);
   }
   .container {
-    .card-subtitle {
-      font-size: 2.6rem;
-      font-weight: 500;
-      color: var(--gray-color);
+    .card-subtitle-wrapper {
+      .card-subtitle {
+        font-size: 2.4rem;
+        font-weight: 500;
+        color: var(--gray-color);
+      }
       i {
+        font-size: 2.6rem;
         color: var(--primary-color);
       }
     }
@@ -34,14 +39,19 @@
     font-weight: 500;
     color: var(--black-color);
   }
-
-  .btn {
-    font-size: 2.6rem;
-    color: var(--white-color);
-    background-color: var(--primary-color);
-  }
 }
 
 .card .card-img-top {
   object-fit: fill;
+}
+
+// responsive layout
+@include media-breakdown-below(md) {
+  .container {
+    .card-subtitle-wrapper {
+      .card-subtitle {
+        font-size: 1rem;
+      }
+    }
+  }
 }

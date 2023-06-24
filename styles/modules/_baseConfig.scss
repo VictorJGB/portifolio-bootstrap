@@ -13,3 +13,15 @@ html {
 section {
   margin: 3% 0;
 }
+
+.btn.btn-primary {
+  font-size: 2.6rem;
+  color: var(--white-color);
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+
+  transition: all 0.5s;
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+}

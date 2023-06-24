@@ -61,7 +61,7 @@
 }
 
 @include media-breakdown-below(md) {
-  .about-info i {
-    font-size: 18rem;
+  .btn-knowMore {
+    font-size: 3.2rem;
   }
 }

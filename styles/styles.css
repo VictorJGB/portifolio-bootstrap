@@ -42,27 +42,37 @@ section {
   transition: all 0.5s;
 }
 
-.nav-bar-active {
-  background-color: var(--primary-color);
-}
-.nav-bar-active .container {
-  color: var(--white-color);
-}
-
 .navbar .navbar-brand {
   font-weight: 700;
   font-size: 3.2rem;
+  transition: ease 0.5s;
 }
 
 .navbar-nav .nav-link {
   color: var(--black-color);
   font-weight: 600;
   font-size: 1.8rem;
-  transition: all 0.5s;
+  transition: ease 0.5s;
 }
 
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
+}
+
+.nav-bar-active {
+  background-color: var(--primary-color);
+}
+.nav-bar-active .container .navbar-brand {
+  color: var(--white-color);
+}
+
+.navbarNav-active .navbar-nav .nav-item .nav-link {
+  color: var(--white-color);
+}
+
+#navBar .container .navbar-toggler {
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
 }
 
 #home h2 {

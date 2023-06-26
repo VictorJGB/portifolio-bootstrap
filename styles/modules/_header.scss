@@ -2,26 +2,38 @@
   transition: all 0.5s;
 }
 
-// Change color on scroll
-.nav-bar-active {
-  background-color: var(--primary-color);
-  .container {
-    color: var(--white-color);
-  }
-}
-
 .navbar .navbar-brand {
   font-weight: 700;
   font-size: 3.2rem;
+  transition: ease 0.5s;
 }
 
 .navbar-nav .nav-link {
   color: var(--black-color);
   font-weight: 600;
   font-size: 1.8rem;
-  transition: all 0.5s;
+  transition: ease 0.5s;
 }
 
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
+}
+
+// Change color on scroll
+.nav-bar-active {
+  background-color: var(--primary-color);
+  .container .navbar-brand {
+    color: var(--white-color);
+  }
+}
+.navbarNav-active .navbar-nav .nav-item .nav-link {
+  color: var(--white-color);
+}
+
+// responsive nav button
+#navBar .container {
+  .navbar-toggler {
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+  }
 }

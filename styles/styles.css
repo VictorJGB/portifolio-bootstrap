@@ -232,7 +232,10 @@ section {
 }
 
 @media (max-width: 767px) {
-  .container .card-subtitle-wrapper .card-subtitle {
+  .card-body .card-title {
+    font-size: 2.6rem;
+  }
+  .card-subtitle {
     font-size: 1rem;
   }
 }/*# sourceMappingURL=styles.css.map */

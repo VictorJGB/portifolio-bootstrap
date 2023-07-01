@@ -143,8 +143,8 @@ section {
   background: url("../../assets/images/purple-2-bg.jpg");
 }
 
-.about-info i {
-  font-size: 40rem;
+.about-icon {
+  font-size: 30rem;
   color: var(--white-color);
 }
 
@@ -190,11 +190,6 @@ section {
   color: var(--secondary-color);
 }
 
-@media (max-width: 991px) {
-  .about-info i {
-    font-size: 30rem;
-  }
-}
 @media (max-width: 767px) {
   .btn-knowMore {
     font-size: 3.2rem;
@@ -277,10 +272,4 @@ section {
 
 .skills-list .list-item h1 {
   color: var(--gray-color);
-}
-
-@media (max-width: 991px) {
-  .professional-section {
-    height: 200vh;
-  }
 }/*# sourceMappingURL=styles.css.map */

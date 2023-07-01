@@ -341,183 +341,92 @@
       <div
         class="title-container container w-100 align-items-center justify-content-center text-center"
       >
-        <h1 class="h1 text-center fw-bold">Habilidades</h1>
+        <h1 class="h1 text-center fw-bold">Atuação Profissional</h1>
       </div>
+
+      <!-- Carousel -->
       <div
-        class="skills-container h-75 gap-5 container d-flex flex-column flex-md-row flex-md-wrap flex-lg-nowrap align-items-center justify-content-around"
+        id="profissionalCarousel"
+        class="carousel slide carousel-fade h-75 w-100"
       >
-        <!-- HTML -->
-        <div
-          class="skill-box gap-5 col-5 col-lg-3 container d-flex flex-column align-items-center justify-content-around text-center rounded-5"
-        >
-          <i class="skill-icon bx bxl-html5"></i>
-          <h1 class="h2 fs-2 fw-bolder">HTML5</h1>
-          <ul
-            class="skills-list container w-100 p-3 d-none d-sm-flex flex-column align-items-start justify-content-around text-start"
-          >
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Metadados</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Tags</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Atributos</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Identificadores</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">SEO</h1>
-            </li>
-          </ul>
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#profissionalCarousel"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#profissionalCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
         </div>
-        <!-- HTML -->
-
-        <!-- CSS -->
-        <div
-          class="skill-box gap-5 col-5 col-lg-3 container d-flex flex-column align-items-center justify-content-around text-center rounded-5"
-        >
-          <i class="skill-icon bx bxl-css3"></i>
-          <h1 class="h1 fs-1 fw-bolder">CSS3</h1>
-          <ul
-            class="skills-list container w-100 p-3 d-none d-sm-flex flex-column align-items-start justify-content-around text-start"
-          >
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
+        <div class="carousel-inner h-100">
+          <div class="carousel-item active h-100">
+            <div
+              class="cards-wrapper d-flex align-items-center justify-content-center w-100 h-100"
             >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Flexbox</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
+              <div class="card col-8">
+                <img
+                  src="./assets/images/profissional/provedor.png"
+                  class="card-img-top"
+                  alt="São Camilo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Estágio em Provedor de Redes</h5>
+                  <p class="card-text">Redes de Computadores</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active h-100">
+            <div
+              class="cards-wrapper d-flex align-items-center justify-content-center w-100 h-100"
             >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Medidas Dinâmicas</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Grid</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Positions</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Responsividade</h1>
-            </li>
-          </ul>
+              <div class="card col-8">
+                <img
+                  src="./assets/images/profissional/sao-camilo.jpg"
+                  class="card-img-top"
+                  alt="São Camilo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Auxiliar em Suporte de T.I</h5>
+                  <p class="card-text">Como jovem aprendiz</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- CSS -->
-
-        <!-- Javascript -->
-        <div
-          class="skill-box gap-5 col-5 col-lg-3 container d-flex flex-column align-items-center justify-content-around text-center rounded-5"
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#profissionalCarousel"
+          data-bs-slide="prev"
         >
-          <i class="skill-icon bx bxl-javascript"></i>
-          <h1 class="h1 fs-1 fw-bolder">Javascript</h1>
-          <ul
-            class="skills-list container w-100 p-3 d-none d-sm-flex flex-column align-items-start justify-content-around text-start"
-          >
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Variáveis</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Funções</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Arrays</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Objetos</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Fetch</h1>
-            </li>
-          </ul>
-        </div>
-        <!-- Javascript -->
-
-        <!-- React -->
-        <div
-          class="skill-box gap-5 col-5 col-lg-3 container d-flex flex-column align-items-center justify-content-around text-center rounded-5"
+          <span
+            class="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#profissionalCarousel"
+          data-bs-slide="next"
         >
-          <i class="skill-icon bx bxl-react"></i>
-          <h1 class="h1 fs-1 fw-bolder">React</h1>
-          <ul
-            class="skills-list container w-100 p-3 d-none d-sm-flex flex-column align-items-start justify-content-around text-start"
-          >
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Props</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Styled-components</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Hooks</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Req HTTP</h1>
-            </li>
-            <li
-              class="list-item fs-1 fw-medium gap-3 d-flex text-center align-items-center justify-content-center"
-            >
-              <i class="bx bxs-chevrons-right"></i>
-              <h1 class="h2 fs-2">Estrutura de Pastas</h1>
-            </li>
-          </ul>
-        </div>
-        <!-- React -->
+          <span
+            class="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
+      <!-- Carousel -->
     </section>
     <!-- profissional Section -->
 

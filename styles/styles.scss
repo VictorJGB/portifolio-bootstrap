@@ -1,10 +1,12 @@
 /* Font import Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-@import "./modules/variables";
-@import "./modules/baseConfig";
-@import "./modules/header";
-@import "./modules/homeSection";
-@import "./modules/aboutSection";
-@import "./modules/academicSection";
-@import "./modules/breakpoints";
+@import './modules/variables';
+@import './modules/baseConfig';
+@import './modules/header';
+@import './modules/homeSection';
+@import './modules/aboutSection';
+@import './modules/academicSection';
+@import './modules/professionalSection';
+
+@import './modules/breakpoints';

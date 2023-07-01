@@ -1,0 +1,40 @@
+@import './breakpoints';
+
+.professional-section {
+  background: url('../../assets/images/purple-bg.jpg');
+}
+
+.title-container h1 {
+  color: var(--white-color);
+  font-size: 3.8rem;
+}
+
+.skill-box {
+  background-color: var(--white-color);
+
+  transition: all 0.5s;
+}
+
+.skill-box:hover {
+  box-shadow: 0px 0px 30px var(--tertiary-color);
+  transform: scale(1.05);
+}
+
+.skill-icon {
+  font-size: 6.2rem;
+  color: var(--primary-color);
+}
+
+.skills-list .list-item i {
+  color: var(--primary-color);
+}
+
+.skills-list .list-item h1 {
+  color: var(--gray-color);
+}
+
+@include media-breakdown-below(lg) {
+  .professional-section {
+    height: 200vh;
+  }
+}

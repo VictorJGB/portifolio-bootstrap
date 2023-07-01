@@ -4,8 +4,7 @@
   background: url('../../assets/images/purple-2-bg.jpg');
 }
 
-.about-info i {
-  font-size: 40rem;
+.about-icon {
   color: var(--white-color);
 }
 
@@ -55,13 +54,6 @@
   &:hover {
     border-color: var(--secondary-color);
     color: var(--secondary-color);
-  }
-}
-
-// Media queries
-@include media-breakdown-below(lg) {
-  .about-info i {
-    font-size: 30rem;
   }
 }
 

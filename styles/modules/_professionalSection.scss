@@ -32,15 +32,3 @@
 .skills-list .list-item h1 {
   color: var(--gray-color);
 }
-
-@include media-breakdown-below(lg) {
-  .professional-section {
-    height: 200vh;
-  }
-}
-
-@media (min-width: 576px) {
-  #profissional {
-    height: 200vh;
-  }
-}

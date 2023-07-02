@@ -1,0 +1,41 @@
+// Card
+.project-card {
+  transition: all 0.5s;
+
+  border: 2px dotted var(--primary-color);
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+// Modal
+.modal-header {
+  background-color: var(--primary-color);
+  .modal-title {
+    color: var(--white-color);
+  }
+
+  .btn-close {
+    color: var(--white-color);
+  }
+}
+
+.tech-container .bx {
+  font-size: 5rem;
+  color: var(--secondary-color);
+}
+
+.techs-title,
+.know-more-title {
+  background-color: var(--primary-color);
+}
+
+.know-more-icons a i {
+  font-size: 4rem;
+  color: var(--primary-color);
+  transition: all 0.5s;
+
+  &:hover {
+    color: var(--secondary-color);
+  }
+}

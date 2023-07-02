@@ -8,27 +8,18 @@
   color: var(--white-color);
   font-size: 3.8rem;
 }
-
-.skill-box {
-  background-color: var(--white-color);
-
-  transition: all 0.5s;
+.card {
+  overflow: hidden;
 }
 
-.skill-box:hover {
-  box-shadow: 0px 0px 30px var(--tertiary-color);
-  transform: scale(1.05);
+// carousel indicators control icon
+#profissionalCarousel .carousel-control-next-icon,
+#profissionalCarousel .carousel-control-prev-icon {
+  background: none;
 }
 
-.skill-icon {
-  font-size: 6.2rem;
-  color: var(--primary-color);
-}
-
-.skills-list .list-item i {
-  color: var(--primary-color);
-}
-
-.skills-list .list-item h1 {
-  color: var(--gray-color);
+#profissionalCarousel .carousel-control-prev-icon .carousel-prev-icon,
+#profissionalCarousel .carousel-control-next-icon .carousel-next-icon {
+  font-size: 4rem;
+  font-weight: 700;
 }

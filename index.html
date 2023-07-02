@@ -53,33 +53,40 @@
           class="collapse navbar-collapse"
           id="navbarNav"
         >
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav ms-auto gap-5">
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link fs-1 fw-semibold"
                 href="#about"
                 >Sobre mim</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link fs-1 fw-semibold"
                 href="#academic"
                 >Formação</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link fs-1 fw-semibold"
                 href="#profissional"
                 >Profissional</a
               >
             </li>
             <li class="nav-item">
               <a
-                class="nav-link"
+                class="nav-link fs-1 fw-semibold"
                 href="#portfolio"
                 >Portifólio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-1 fw-semibold"
+                href="#portfolio"
+                >Contato</a
               >
             </li>
           </ul>
@@ -366,28 +373,37 @@
           ></button>
         </div>
         <div class="carousel-inner h-100">
+          <!-- card provedor -->
           <div class="carousel-item active h-100">
             <div
               class="cards-wrapper d-flex align-items-center justify-content-center w-100 h-100"
             >
-              <div class="card col-8">
+              <div class="card rounded-5 col-8">
                 <img
                   src="./assets/images/profissional/provedor.png"
                   class="card-img-top"
                   alt="São Camilo"
                 />
                 <div class="card-body">
-                  <h5 class="card-title">Estágio em Provedor de Redes</h5>
-                  <p class="card-text">Redes de Computadores</p>
+                  <h5 class="card-title">Estágio em Provedor de Internet</h5>
+                  <p class="card-text">
+                    Atividades realizadas: instalação e manutenção de
+                    roteadores, antenas e suportes, configuração de
+                    roteadores,cabeamento de residências, confecção de cabos de
+                    rede com conectores RJ45.
+                  </p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item active h-100">
+          <!-- card provedor -->
+
+          <!-- card sao camilo -->
+          <div class="carousel-item h-100">
             <div
               class="cards-wrapper d-flex align-items-center justify-content-center w-100 h-100"
             >
-              <div class="card col-8">
+              <div class="card rounded-5 col-8">
                 <img
                   src="./assets/images/profissional/sao-camilo.jpg"
                   class="card-img-top"
@@ -395,11 +411,18 @@
                 />
                 <div class="card-body">
                   <h5 class="card-title">Auxiliar em Suporte de T.I</h5>
-                  <p class="card-text">Como jovem aprendiz</p>
+                  <p class="card-text">
+                    Atividades realizadas: instalação e manutenção de estações
+                    de trabalho, configuração de redes, confecção de cabos de
+                    rede, instalação e configuração de cameras IP, instalação e
+                    configuração de switchs e storages, configuração de
+                    servidores, configuração de firewall
+                  </p>
                 </div>
               </div>
             </div>
           </div>
+          <!-- card sao camilo -->
         </div>
         <button
           class="carousel-control-prev"
@@ -410,7 +433,9 @@
           <span
             class="carousel-control-prev-icon"
             aria-hidden="true"
-          ></span>
+          >
+            <i class="carousel-prev-icon bx bxs-left-arrow"></i>
+          </span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -422,13 +447,161 @@
           <span
             class="carousel-control-next-icon"
             aria-hidden="true"
-          ></span>
+          >
+            <i class="carousel-next-icon bx bxs-right-arrow"></i>
+          </span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
       <!-- Carousel -->
     </section>
     <!-- profissional Section -->
+
+    <!-- portifolio section -->
+    <section
+      id="portifolio"
+      class="container-fluid w-100 h-100 d-flex flex-column align-items-center justify-content-center"
+    >
+      <div class="row text-center">
+        <h1 class="portifolio-title fw-bold">Portifólio</h1>
+      </div>
+      <div
+        class="container-fluid w-100 h-75 d-flex align-items-center justify-content-center"
+      >
+        <!-- Premier Modal -->
+        <div
+          class="modal fade"
+          id="firstProjectModal"
+          tabindex="-1"
+          aria-labelledby="firstProjectModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="container text-center">
+                  <h1
+                    class="modal-title fs-1 fw-bold text-center"
+                    id="firstProjectModalLabel"
+                  >
+                    Premier Brasil
+                  </h1>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- video -->
+                <div class="ratio ratio-4x3">
+                  <video
+                    autoplay
+                    loop
+                    muted
+                  >
+                    <source
+                      src="./assets/videos/premierbrasil.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
+              <div class="modal-footer p-0 text-center gap-5">
+                <!-- techs -->
+                <div
+                  class="container-fluid p-0 w-100 gap-5 d-flex flex-column align-items-center justify-content-center text-center"
+                >
+                  <h2
+                    class="techs-title h2 w-100 py-3 fs-1 fw-semibold text-white"
+                  >
+                    Tecnologias
+                  </h2>
+                  <div
+                    class="tech-container d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-html5"></i>
+                      <h5 class="h5 fs-3">HTML5</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-css3"></i>
+                      <h5 class="h5 fs-3">CSS3</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-sass"></i>
+                      <h5 class="h5 fs-3">SASS</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-bootstrap"></i>
+                      <h5 class="h5 fs-3">Bootstrap</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-angular"></i>
+                      <h5 class="h5 fs-3">Angular</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- know more -->
+                <div class="container-fluid p-0 w-100 gap-5">
+                  <h2
+                    class="know-more-title h2 w-100 py-3 fs-1 fw-semibold text-white"
+                  >
+                    Saiba Mais
+                  </h2>
+                  <div class="know-more-icons container">
+                    <a
+                      href="https://premierbrasil1bi.com.br/#/"
+                      target="_blank"
+                      ><i class="bx bx-link-external"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+
+        <div
+          class="project-card p-5 gap-4 container col-10 col-lg-4 rounded-5 d-flex flex-column align-items-center justify-content-around"
+          data-bs-toggle="modal"
+          data-bs-target="#firstProjectModal"
+        >
+          <div class="container-fluid w-75">
+            <img
+              src="./assets/logo/premier_brasil.png"
+              alt="Premier Brasil"
+              class="img-fluid"
+            />
+          </div>
+          <button
+            type="button"
+            class="btn btn-primary"
+            data-bs-toggle="modal"
+            data-bs-target="#firstProjectModal"
+          >
+            Launch demo modal
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- portifolio section -->
+
+    <!-- contact section -->
+    <!-- contact section -->
 
     <!-- Main JS -->
     <script

@@ -1,4 +1,4 @@
-@import "./breakpoints";
+@import './breakpoints';
 
 #academic {
   background-color: var(--white-color);
@@ -6,8 +6,8 @@
 
 .academic-cards-container {
   .academic-title {
-    font-size: 3.8rem;
     font-weight: 700;
+    font-size: 3.8rem;
     color: var(--primary-color);
     text-transform: uppercase;
   }

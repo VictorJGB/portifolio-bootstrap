@@ -242,7 +242,7 @@
         <div
           class="academic-cards-container h-100 col-12 d-flex flex-column align-items-center justify-content-center justify-content-lg-around text-center"
         >
-          <h1 class="academic-title display-h1">Formação</h1>
+          <h1 class="section-title academic-title display-h1">Formação</h1>
           <div
             class="container d-flex flex-row h-100 align-items-center justify-content-center"
           >
@@ -460,13 +460,13 @@
     <!-- portifolio section -->
     <section
       id="portifolio"
-      class="container-fluid w-100 h-100 d-flex flex-column align-items-center justify-content-center"
+      class="container-fluid w-100 d-flex flex-column align-items-center justify-content-around"
     >
       <div class="row text-center">
-        <h1 class="portifolio-title fw-bold">Portifólio</h1>
+        <h1 class="portifolio-title h1 fw-bold">Portifólio</h1>
       </div>
       <div
-        class="container-fluid w-100 h-75 d-flex align-items-center justify-content-center"
+        class="container-fluid w-100 gap-5 d-flex flex-column flex-lg-row align-items-center justify-content-center"
       >
         <!-- Premier Modal -->
         <div
@@ -543,6 +543,12 @@
                     <div
                       class="tech-box container d-flex flex-column align-items-center justify-content-center"
                     >
+                      <i class="bx bxl-typescript"></i>
+                      <h5 class="h5 fs-3">Typescript</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
                       <i class="bx bxl-bootstrap"></i>
                       <h5 class="h5 fs-3">Bootstrap</h5>
                     </div>
@@ -573,29 +579,291 @@
             </div>
           </div>
         </div>
-        <!-- Modal -->
+        <!-- Premier Modal -->
 
+        <!-- Discord Modal -->
         <div
-          class="project-card p-5 gap-4 container col-10 col-lg-4 rounded-5 d-flex flex-column align-items-center justify-content-around"
+          class="modal fade"
+          id="secondProjectModal"
+          tabindex="-1"
+          aria-labelledby="secondProjectModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="container text-center">
+                  <h1
+                    class="modal-title fs-1 fw-bold text-center"
+                    id="secondProjectModalLabel"
+                  >
+                    Aura Discord
+                  </h1>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- video -->
+                <div class="ratio ratio-4x3">
+                  <video
+                    autoplay
+                    loop
+                    muted
+                  >
+                    <source
+                      src="./assets/videos/discord_clone.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
+              <div class="modal-footer p-0 text-center gap-5">
+                <!-- techs -->
+                <div
+                  class="container-fluid p-0 w-100 gap-5 d-flex flex-column align-items-center justify-content-center text-center"
+                >
+                  <h2
+                    class="techs-title h2 w-100 py-3 fs-1 fw-semibold text-white"
+                  >
+                    Tecnologias
+                  </h2>
+                  <div
+                    class="tech-container d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-html5"></i>
+                      <h5 class="h5 fs-3">HTML5</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-css3"></i>
+                      <h5 class="h5 fs-3">CSS3</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-sass"></i>
+                      <h5 class="h5 fs-3">SASS</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-typescript"></i>
+                      <h5 class="h5 fs-3">Typescript</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-react"></i>
+                      <h5 class="h5 fs-3">React</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- know more -->
+                <div class="container-fluid p-0 w-100 gap-5">
+                  <h2
+                    class="know-more-title h2 w-100 py-3 fs-1 fw-semibold text-white"
+                  >
+                    Saiba Mais
+                  </h2>
+                  <div class="know-more-icons gap-5 container">
+                    <a
+                      href="https://aura-discord.netlify.app/"
+                      target="_blank"
+                      ><i class="bx bx-link-external"></i
+                    ></a>
+                    <a
+                      href="https://github.com/VictorJGB/aura-discord/"
+                      target="_blank"
+                      ><i class="bx bxl-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Discord Modal -->
+
+        <!-- Clonerest Modal -->
+        <div
+          class="modal fade"
+          id="thirdProjectModal"
+          tabindex="-1"
+          aria-labelledby="thirdProjectModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="container text-center">
+                  <h1
+                    class="modal-title fs-1 fw-bold text-center"
+                    id="thirdProjectModalLabel"
+                  >
+                    Clonerest
+                  </h1>
+                </div>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <!-- video -->
+                <div class="ratio ratio-4x3">
+                  <video
+                    autoplay
+                    loop
+                    muted
+                  >
+                    <source
+                      src="./assets/videos/clonerest.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+              </div>
+              <div class="modal-footer p-0 text-center gap-5">
+                <!-- techs -->
+                <div
+                  class="container-fluid p-0 w-100 gap-5 d-flex flex-column align-items-center justify-content-center text-center"
+                >
+                  <h2
+                    class="techs-title h2 w-100 py-3 fs-1 fw-semibold text-white"
+                  >
+                    Tecnologias
+                  </h2>
+                  <div
+                    class="tech-container d-flex align-items-center justify-content-center"
+                  >
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-html5"></i>
+                      <h5 class="h5 fs-3">HTML5</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-css3"></i>
+                      <h5 class="h5 fs-3">CSS3</h5>
+                    </div>
+                    <div
+                      class="tech-box container d-flex flex-column align-items-center justify-content-center"
+                    >
+                      <i class="bx bxl-sass"></i>
+                      <h5 class="h5 fs-3">SASS</h5>
+                    </div>
+                  </div>
+                </div>
+                <!-- know more -->
+                <div class="container-fluid p-0 w-100 gap-5">
+                  <h2
+                    class="know-more-title h2 w-100 py-3 fs-1 fw-semibold text-white"
+                  >
+                    Saiba Mais
+                  </h2>
+                  <div class="know-more-icons gap-5 container">
+                    <a
+                      href="https://github.com/VictorJGB/Clonerest"
+                      target="_blank"
+                      ><i class="bx bxl-github"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Clonerest Modal -->
+
+        <!-- premier brasil card -->
+        <div
+          class="project-card p-5 gap-4 container col-10 col-md-8 col-lg-3 rounded-5 d-flex flex-column align-items-center justify-content-around"
           data-bs-toggle="modal"
           data-bs-target="#firstProjectModal"
         >
-          <div class="container-fluid w-75">
+          <div
+            class="container-fluid w-75 d-flex align-items-center justify-content-center"
+          >
             <img
               src="./assets/logo/premier_brasil.png"
               alt="Premier Brasil"
               class="img-fluid"
+              style="max-width: 80%"
             />
           </div>
-          <button
-            type="button"
-            class="btn btn-primary"
-            data-bs-toggle="modal"
-            data-bs-target="#firstProjectModal"
+          <div
+            class="card-title-container container-fluid w-100 p-5 rounded-3 text-center"
           >
-            Launch demo modal
-          </button>
+            <h1 class="h1 fs-1">Premier Brasil</h1>
+            <h2 class="h2 fs-2">Site oficial da empresa Premier Brasil</h2>
+          </div>
         </div>
+        <!-- Premier Brasil card -->
+
+        <!-- Discord Clone card -->
+        <div
+          class="project-card p-5 gap-4 container col-10 col-md-8 col-lg-3 rounded-5 d-flex flex-column align-items-center justify-content-around"
+          data-bs-toggle="modal"
+          data-bs-target="#secondProjectModal"
+        >
+          <div
+            class="container-fluid w-75 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="./assets/logo/discord.png"
+              alt="Discord Clone"
+              class="img-fluid"
+              style="max-width: 80%"
+            />
+          </div>
+          <div
+            class="card-title-container container-fluid w-100 p-5 rounded-3 text-center"
+          >
+            <h1 class="h1 fs-1">Discord Clone</h1>
+            <h2 class="h2 fs-2">
+              UI Discord Clone com uma paleta de cores nova
+            </h2>
+          </div>
+        </div>
+        <!-- Discord Clone card -->
+
+        <!-- Clonerest card -->
+        <div
+          class="project-card p-5 gap-4 container col-10 col-md-8 col-lg-3 rounded-5 d-flex flex-column align-items-center justify-content-around"
+          data-bs-toggle="modal"
+          data-bs-target="#thirdProjectModal"
+        >
+          <div
+            class="container-fluid w-75 d-flex align-items-center justify-content-center"
+          >
+            <img
+              src="./assets/logo/clonerest.png"
+              alt="Clonerest"
+              class="img-fluid"
+              style="max-width: 80%"
+            />
+          </div>
+          <div
+            class="card-title-container container-fluid w-100 p-5 rounded-3 text-center"
+          >
+            <h1 class="h1 fs-1">Clonerest</h1>
+            <h2 class="h2 fs-2">UI Pinterest Clone para praticar animations</h2>
+          </div>
+        </div>
+        <!-- Clonerest card -->
       </div>
     </section>
     <!-- portifolio section -->

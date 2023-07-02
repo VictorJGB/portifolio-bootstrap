@@ -9,6 +9,7 @@
   --black-color: #000;
   --gray-color: #848482;
   --gray-light-color: #cecece;
+  --black-shadow-color: rgb(0, 0, 0, 0.5);
   /* Font */
   --font-base: "Poppins", sans-serif;
 }
@@ -148,7 +149,7 @@ section {
 
 .about-info h1 {
   color: var(--tertiary-color);
-  font-size: 4.4rem;
+  font-size: 3.8rem;
   font-weight: 700;
   -webkit-text-decoration: solid;
           text-decoration: solid;
@@ -198,8 +199,8 @@ section {
 }
 
 .academic-cards-container .academic-title {
-  font-size: 3.8rem;
   font-weight: 700;
+  font-size: 3.8rem;
   color: var(--primary-color);
   text-transform: uppercase;
 }
@@ -245,8 +246,8 @@ section {
 }
 
 .title-container h1 {
-  color: var(--white-color);
   font-size: 3.8rem;
+  color: var(--white-color);
 }
 
 .card {
@@ -264,12 +265,33 @@ section {
   font-weight: 700;
 }
 
+#portifolio {
+  height: 100vh;
+}
+
+#portifolio .portifolio-title {
+  font-size: 3.8rem;
+  color: var(--primary-color);
+}
+
 .project-card {
+  cursor: pointer;
   transition: all 0.5s;
-  border: 2px dotted var(--primary-color);
+  background-color: var(--primary-color);
 }
 .project-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px var(--black-color);
+}
+
+.card-title-container {
+  background-color: var(--white-color);
+}
+.card-title-container h1 {
+  color: var(--secondary-color);
+}
+.card-title-container h2 {
+  color: var(--gray-color);
 }
 
 .modal-header {
@@ -299,4 +321,10 @@ section {
 }
 .know-more-icons a i:hover {
   color: var(--secondary-color);
+}
+
+@media (max-width: 960px) {
+  #portifolio {
+    height: 150vh;
+  }
 }/*# sourceMappingURL=styles.css.map */

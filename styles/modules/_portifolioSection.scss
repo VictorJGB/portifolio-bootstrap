@@ -1,10 +1,32 @@
+#portifolio {
+  height: 100vh;
+}
+
+#portifolio .portifolio-title {
+  font-size: 3.8rem;
+  color: var(--primary-color);
+}
+
 // Card
 .project-card {
+  cursor: pointer;
   transition: all 0.5s;
 
-  border: 2px dotted var(--primary-color);
+  background-color: var(--primary-color);
+  //   box-shadow: 0 0 10px var(--black-color);
   &:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--black-color);
+  }
+}
+
+.card-title-container {
+  background-color: var(--white-color);
+  h1 {
+    color: var(--secondary-color);
+  }
+  h2 {
+    color: var(--gray-color);
   }
 }
 
@@ -37,5 +59,11 @@
 
   &:hover {
     color: var(--secondary-color);
+  }
+}
+
+@media (max-width: 960px) {
+  #portifolio {
+    height: 150vh;
   }
 }

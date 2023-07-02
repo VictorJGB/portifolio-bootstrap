@@ -1,15 +1,20 @@
 /* Font import Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
-@import './modules/variables';
+// base configs
 @import './modules/baseConfig';
-@import './modules/header';
-@import './modules/homeSection';
-@import './modules/aboutSection';
-@import './modules/academicSection';
-@import './modules/professionalSection';
-@import './modules/portifolioSection';
+@import './modules/variables';
 
+// sections styles
+@import './modules/sections/homeSection';
+@import './modules/sections/aboutSection';
+@import './modules/sections/academicSection';
+@import './modules/sections/professionalSection';
+@import './modules/sections/portifolioSection';
+
+// components styles
+@import './modules/components/header';
+@import './modules/components/buttons';
 @import './modules/breakpoints';
 
 // Style for every section title

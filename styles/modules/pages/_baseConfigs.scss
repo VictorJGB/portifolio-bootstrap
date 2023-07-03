@@ -40,3 +40,29 @@
     height: 40%;
   }
 }
+
+.project-box {
+  transition: all 0.5s;
+  border: 2px dotted transparent;
+
+  &:hover {
+    transform: scale(1.05);
+    border-color: var(--primary-color);
+  }
+}
+
+.project-link i {
+  font-size: 3.2rem;
+  color: var(--primary-color);
+  transition: all 0.5s;
+
+  &:hover {
+    color: var(--secondary-color);
+  }
+}
+
+@media (max-width: 960px) {
+  #projects {
+    height: 150vh;
+  }
+}

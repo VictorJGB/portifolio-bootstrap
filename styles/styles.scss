@@ -17,4 +17,13 @@
 @import './modules/components/buttons';
 @import './modules/breakpoints';
 
-// Style for every section title
+// Pages styles
+@import './modules/pages/htm5Page';
+@import './modules/pages/baseConfigs.scss';
+
+html,
+body,
+section {
+  height: 100vh;
+  width: 100%;
+}

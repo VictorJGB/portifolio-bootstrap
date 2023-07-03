@@ -1,8 +1,9 @@
-#portifolio {
+#portfolio {
   height: 100vh;
+  width: 100%;
 }
 
-#portifolio .portifolio-title {
+#portfolio .portfolio-title {
   font-size: 3.8rem;
   color: var(--primary-color);
 }
@@ -27,6 +28,17 @@
   }
   h2 {
     color: var(--gray-color);
+  }
+}
+
+.tech-box a {
+  color: var(--black-color);
+  text-decoration: none;
+
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.1);
   }
 }
 
@@ -63,7 +75,7 @@
 }
 
 @media (max-width: 960px) {
-  #portifolio {
+  #portfolio {
     height: 150vh;
   }
 }

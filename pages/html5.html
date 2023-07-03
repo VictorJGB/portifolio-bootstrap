@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/styles.css"
+    />
+    <!-- Importing the bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- importing the box icons font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portifólio | HTML5</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav
+      id="navBar"
+      class="navbar navbar-tech navbar-expand-lg fixed-top shadow bg-white"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="../index.html"
+          ><i class="bx bxs-left-arrow-circle"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto gap-5 bg-white">
+            <ul class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#"
+                >Início</a
+              >
+            </ul>
+
+            <li class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#prosCons"
+                >Pros & Contras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#projects"
+                >Projetos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Home -->
+    <section
+      id="homeHtmlSection"
+      class="container-fluid h-100 justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex flex-column flex-lg-row gap-5 h-100 align-items-center justify-content-center"
+      >
+        <div
+          class="container col-10 col-lg-6 d-flex align-items-center justify-content-center"
+        >
+          <img
+            src="../assets/logo/html5.png"
+            class="img-fluid"
+            alt=""
+          />
+        </div>
+        <div
+          class="tech-description-container container col-12 col-lg-6 gap-4 d-flex d-flex flex-column align-items-center justify-content-around text-center"
+        >
+          <h1 class="tech-title h1 fw-bold">HTML5</h1>
+          <p class="tech-description fs-2 text- fw-semibold">
+            HTML5 é a próxima grande revisão do padrão HTML substituindo HTML
+            4.01, XHTML 1.0 e XHTML 1.1. HTML5 é um padrão para estruturar e
+            apresentar conteúdo na World Wide Web trazendo alguns novos
+            elementos em relação a suas versões passadas.
+          </p>
+          <a
+            class="btn-knowMoreTech py-3 px-5"
+            href="https://developer.mozilla.org/en-US/docs/Glossary/HTML5"
+            target="_blank"
+          >
+            Saiba Mais
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Home -->
+
+    <!-- Pros & Contras -->
+    <section
+      id="prosCons"
+      class="container-fluid h-100 justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex flex-column gap-5 h-100 align-items-center justify-content-center"
+      >
+        <div class="row text-center w-100">
+          <h1 class="section-title">Pros & Contras</h1>
+        </div>
+        <!-- pros cons container -->
+        <div
+          class="pros-cons-container container d-flex flex-column flex-lg-row gap-5 h-100 align-items-center justify-content-center"
+        >
+          <!-- Pros -->
+          <div class="box col-8 col-lg-6 text-center rounded-5 p-5">
+            <h2 class="h2 fs-1">Pros</h2>
+            <ul
+              class="tech-list h-75 gap-3 px-4 container d-flex flex-column align-items-start justify-content-center"
+            >
+              <li class="list-item text-start fs-2 text-body-secondary">
+                Maior compatibilidade
+              </li>
+              <li class="list-item text-start fs-2 text-body-secondary">
+                É mais semântico
+              </li>
+              <li class="list-item text-start fs-2 text-body-secondary">
+                Ele incorpora novos recursos Javascript
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contras -->
+          <div class="box col-8 col-lg-6 text-center rounded-5 p-5">
+            <h2 class="h2 fs-1">Contras</h2>
+            <ul
+              class="tech-list h-75 gap-3 px-4 container d-flex flex-column align-items-start justify-content-center"
+            >
+              <li class="list-item text-start fs-2 text-body-secondary">
+                Controle de streaming
+              </li>
+              <li class="list-item text-start fs-2 text-body-secondary">
+                Acesso à câmera e microfone
+              </li>
+              <li class="list-item text-start fs-2 text-body-secondary">
+                Formato de vídeo incopatível com todos os navegadores
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pros & Contras -->
+
+    <!-- Projetos -->
+    <section
+      id="projects"
+      class="container-fluid d-flex flex-column h-100 w-100 justify-content-evenly align-items-center"
+    >
+      <div class="row text-center">
+        <h1 class="section-title">Projetos</h1>
+      </div>
+      <div
+        class="container d-flex align-items-center justify-content-center flex-wrap"
+      >
+        <div
+          class="row d-flex align-items-center justify-content-center flex-wrap"
+        >
+          <div
+            class="project-box col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/murphy_portfolio.jpg"
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Project Title</h1>
+              <p class="fs-2 fw-semibold text-body-secondary">
+                Project description
+              </p>
+            </div>
+          </div>
+          <div
+            class="project-box col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src=""
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Project Title</h1>
+              <p class="fs-2 fw-semibold text-body-secondary">
+                Project description
+              </p>
+            </div>
+          </div>
+          <div
+            class="project-box col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src=""
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Project Title</h1>
+              <p class="fs-2 fw-semibold text-body-secondary">
+                Project description
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div
+            class="project-box col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src=""
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Project Title</h1>
+              <p class="fs-2 fw-semibold text-body-secondary">
+                Project description
+              </p>
+            </div>
+          </div>
+          <div
+            class="project-box col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src=""
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Project Title</h1>
+              <p class="fs-2 fw-semibold text-body-secondary">
+                Project description
+              </p>
+            </div>
+          </div>
+          <div
+            class="project-box col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src=""
+                alt=""
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Project Title</h1>
+              <p class="fs-2 fw-semibold text-body-secondary">
+                Project description
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projetos -->
+
+    <!-- Importing the bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/styles.css"
+    />
+    <!-- Importing the bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- importing the box icons font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portifólio | Sass</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav
+      id="navBar"
+      class="navbar navbar-tech navbar-expand-lg fixed-top shadow bg-white"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="../index.html"
+          ><i class="bx bxs-left-arrow-circle"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto gap-5 bg-white">
+            <ul class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#"
+                >Início</a
+              >
+            </ul>
+
+            <li class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#prosCons"
+                >Pros & Contras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#projects"
+                >Projetos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Home -->
+    <section
+      id="homeHtmlSection"
+      class="container-fluid h-100 justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex flex-column flex-lg-row gap-5 h-100 align-items-center justify-content-center"
+      >
+        <div
+          class="container col-10 col-lg-6 d-flex align-items-center justify-content-center"
+        >
+          <img
+            src="../assets/logo/sass.png"
+            class="img-fluid"
+            alt="Sass"
+          />
+        </div>
+        <div
+          class="tech-description-container container col-12 col-lg-6 gap-4 d-flex d-flex flex-column align-items-center justify-content-around text-center"
+        >
+          <h1 class="tech-title h1 fw-bold">Sass</h1>
+          <p class="tech-description fs-2 text- fw-semibold">
+            Sass é uma linguagem de folha de estilo compilada para CSS. Ele
+            permite que você use variáveis, regras aninhadas, mixins, funções e
+            muito mais, tudo com uma sintaxe totalmente compatível com CSS. O
+            Sass ajuda a manter grandes folhas de estilo bem organizadas e
+            facilita o compartilhamento de design dentro e entre projetos.
+          </p>
+          <a
+            class="btn-knowMoreTech py-3 px-5"
+            href="https://sass-lang.com/"
+            target="_blank"
+          >
+            Saiba Mais
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Home -->
+
+    <!-- Pros & Contras -->
+    <section
+      id="prosCons"
+      class="container-fluid h-100 justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex flex-column gap-5 h-100 align-items-center justify-content-center"
+      >
+        <div class="row text-center w-100">
+          <h1 class="section-title">Pros & Contras</h1>
+        </div>
+        <!-- pros cons container -->
+        <div
+          class="pros-cons-container container d-flex flex-column flex-lg-row gap-5 h-100 align-items-center justify-content-center"
+        >
+          <!-- Pros -->
+          <div class="box col-8 col-lg-6 text-center rounded-5 p-3">
+            <h2 class="h2 fs-1">Pros</h2>
+            <ul
+              class="tech-list h-75 gap-3 px-4 container d-flex flex-column align-items-start justify-content-center"
+            >
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Reusabilidade
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Aninhamento de elementos
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Melhor utilização de variáveis
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contras -->
+          <div class="box col-8 col-lg-6 text-center rounded-5 p-3">
+            <h2 class="h2 fs-1">Contras</h2>
+            <ul
+              class="tech-list h-75 gap-3 px-4 container d-flex flex-column align-items-start justify-content-center"
+            >
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Necessita de um compilador a mais
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Processo adicional para o navegador
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Velocidade de visualização da página mais lenta
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pros & Contras -->
+
+    <!-- Projetos -->
+    <section
+      id="projects"
+      class="container-fluid d-flex flex-column justify-content-evenly align-items-center"
+    >
+      <div class="row text-center">
+        <h1 class="section-title">Projetos</h1>
+      </div>
+      <div
+        class="container d-flex gap-5 align-items-center justify-content-center flex-wrap"
+      >
+        <!-- First Line -->
+        <div
+          class="row gap-5 d-flex align-items-center justify-content-center flex-wrap"
+        >
+          <!-- first project -->
+          <div
+            class="project-box rounded-5 p-4 shadow gap-3 col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/sass/repeat.jpg"
+                alt="Repeat"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Repeat Website</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://www.getrepeat.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- first project -->
+
+          <!-- second project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/sass/aleph_beauty.jpg"
+                alt="Aleph Beauty Website"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Aleph Beauty Website</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://alephbeauty.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- second project -->
+
+          <!-- third project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/sass/stinna_it.png"
+                alt="Stinna IT"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Stinna IT</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://stinna-it.nl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- third project -->
+        </div>
+        <!-- First Line -->
+
+        <!-- Second Line -->
+        <div class="row gap-5 d-flex align-items-center justify-content-center">
+          <!-- fourth project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/sass/dark_burn.png"
+                alt="Dark Burn"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Dark Burn Website</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://www.darkburn.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- fourth project -->
+
+          <!-- fifth project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/sass/fathom.jpg"
+                alt="Fathom"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Fathom</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://www.fathom.global/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- fifth project -->
+
+          <!-- sixth project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/sass/b2design.jpg"
+                alt="B2Design"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">B2Dseign</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://www.b2design.nl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- sixth project -->
+        </div>
+        <!-- Second Line -->
+      </div>
+    </section>
+    <!-- Projetos -->
+
+    <!-- Importing the bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

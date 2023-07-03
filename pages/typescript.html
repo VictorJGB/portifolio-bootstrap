@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="stylesheet"
+      href="../styles/styles.css"
+    />
+    <!-- Importing the bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <!-- importing the box icons font -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Portifólio | Typescript</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <nav
+      id="navBar"
+      class="navbar navbar-tech navbar-expand-lg fixed-top shadow bg-white"
+    >
+      <div class="container">
+        <a
+          class="navbar-brand"
+          href="../index.html"
+          ><i class="bx bxs-left-arrow-circle"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav ms-auto gap-5 bg-white">
+            <ul class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#"
+                >Início</a
+              >
+            </ul>
+
+            <li class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#prosCons"
+                >Pros & Contras</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link fs-3 fw-semibold"
+                href="#projects"
+                >Projetos</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header -->
+
+    <!-- Home -->
+    <section
+      id="homeHtmlSection"
+      class="container-fluid h-100 justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex flex-column flex-lg-row gap-5 h-100 align-items-center justify-content-center"
+      >
+        <div
+          class="container col-10 col-lg-6 d-flex align-items-center justify-content-center"
+        >
+          <img
+            src="../assets/logo/typescript.png"
+            class="img-fluid"
+            alt="Typescript"
+          />
+        </div>
+        <div
+          class="tech-description-container container col-12 col-lg-6 gap-4 d-flex d-flex flex-column align-items-center justify-content-around text-center"
+        >
+          <h1 class="tech-title h1 fw-bold">Typescript</h1>
+          <p class="tech-description fs-2 text- fw-semibold">
+            TypeScript é uma linguagem de programação fortemente tipada que se
+            baseia em JavaScript, oferecendo melhores ferramentas em qualquer
+            escala.
+          </p>
+          <a
+            class="btn-knowMoreTech py-3 px-5"
+            href="https://www.typescriptlang.org/"
+            target="_blank"
+          >
+            Saiba Mais
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Home -->
+
+    <!-- Pros & Contras -->
+    <section
+      id="prosCons"
+      class="container-fluid h-100 justify-content-center align-items-center"
+    >
+      <div
+        class="container d-flex flex-column gap-5 h-100 align-items-center justify-content-center"
+      >
+        <div class="row text-center w-100">
+          <h1 class="section-title">Pros & Contras</h1>
+        </div>
+        <!-- pros cons container -->
+        <div
+          class="pros-cons-container container d-flex flex-column flex-lg-row gap-5 h-100 align-items-center justify-content-center"
+        >
+          <!-- Pros -->
+          <div class="box col-8 col-lg-6 text-center rounded-5 p-3">
+            <h2 class="h2 fs-1">Pros</h2>
+            <ul
+              class="tech-list h-75 gap-3 px-4 container d-flex flex-column align-items-start justify-content-center"
+            >
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Programação Orientada a Objetos
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Não precisa de um runtime plugin
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Usado em frameworks populares
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contras -->
+          <div class="box col-8 col-lg-6 text-center rounded-5 p-3">
+            <h2 class="h2 fs-1">Contras</h2>
+            <ul
+              class="tech-list h-75 gap-3 px-4 container d-flex flex-column align-items-start justify-content-center"
+            >
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Curva de aprendizagem
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Ciclos de update curtos
+              </li>
+              <li class="list-item text-start fs-3 text-body-secondary">
+                Precisa de ferramentas para desenvolvimento
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Pros & Contras -->
+
+    <!-- Projetos -->
+    <section
+      id="projects"
+      class="container-fluid d-flex flex-column justify-content-evenly align-items-center"
+    >
+      <div class="row text-center">
+        <h1 class="section-title">Projetos</h1>
+      </div>
+      <div
+        class="container d-flex gap-5 align-items-center justify-content-center flex-wrap"
+      >
+        <!-- First Line -->
+        <div
+          class="row gap-5 d-flex align-items-center justify-content-center flex-wrap"
+        >
+          <!-- first project -->
+          <div
+            class="project-box rounded-5 p-4 shadow gap-3 col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/typescript/vscode.png"
+                alt="Visual Studio Code"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Visual Studio Code</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://code.visualstudio.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- first project -->
+
+          <!-- second project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/typescript/deno.png"
+                alt="Deno"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Deno</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://deno.land/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- second project -->
+
+          <!-- third project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/typescript/storybook.png"
+                alt="Storybook"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Storybook</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://storybook.js.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- third project -->
+        </div>
+        <!-- First Line -->
+
+        <!-- Second Line -->
+        <div class="row gap-5 d-flex align-items-center justify-content-center">
+          <!-- fourth project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/typescript/mermaid.png"
+                alt="Mermaid"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Mermaid</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="http://mermaid.js.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- fourth project -->
+
+          <!-- fifth project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/typescript/ionic.png"
+                alt="Ionic"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Ionic</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://ionicframework.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- fifth project -->
+
+          <!-- sixth project -->
+          <div
+            class="project-box rounded-5 p-4 gap-3 shadow col d-flex flex-column align-items-center justify-content-center"
+          >
+            <div
+              class="container d-flex align-items-center justify-content-center"
+            >
+              <img
+                src="../assets/images/projects/typescript/prettier.png"
+                alt="Prettier"
+                class="img-fluid"
+              />
+            </div>
+            <div class="container text-center">
+              <h1 class="h1 fs-1 fw-bold">Prettier</h1>
+            </div>
+            <div class="container text-center">
+              <a
+                class="project-link"
+                href="https://prettier.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="bx bx-link-external"></i>
+              </a>
+            </div>
+          </div>
+          <!-- sixth project -->
+        </div>
+        <!-- Second Line -->
+      </div>
+    </section>
+    <!-- Projetos -->
+
+    <!-- Importing the bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

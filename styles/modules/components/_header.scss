@@ -2,6 +2,10 @@
   transition: all 0.5s;
 }
 
+.navbar {
+  background-color: var(--white-color);
+}
+
 .navbar .navbar-brand {
   font-weight: 700;
   font-size: 3.2rem;

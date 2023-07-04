@@ -370,6 +370,38 @@ section {
   border: 2px solid var(--primary-color);
 }
 
+.footer-container {
+  height: 28rem;
+}
+
+@media (max-width: 576px) {
+  .footer-container {
+    height: 100vh;
+  }
+}
+.input-wrapper {
+  width: 100%;
+}
+.input-wrapper .form-label {
+  font-size: 2.2rem;
+}
+.input-wrapper .form-control {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  font-size: 1.8rem;
+}
+
+.footer-link {
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: all 0.5s;
+}
+.footer-link:hover {
+  color: var(--secondary-color);
+}
+
 .tech-description-container .tech-title {
   font-size: 4.4rem;
   color: var(--primary-color);

@@ -1,3 +1,3 @@
-import { onHeaderScroll } from "./header.js";
+import { onHeaderScroll } from './header.js';
 
 onHeaderScroll();

@@ -17,6 +17,12 @@
   transition: ease 0.5s;
 }
 
+.navbar .container .collapse .navbar-nav li.active {
+  .nav-link {
+    color: var(--black-color);
+  }
+}
+
 .navbar-nav .nav-link:hover {
   color: var(--secondary-color);
 }

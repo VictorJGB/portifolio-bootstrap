@@ -303,6 +303,38 @@ section {
     height: 150vh;
   }
 }
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.contact-content h2 {
+  color: var(--primary-color);
+}
+
+.contact-list {
+  background-color: var(--secondary-color);
+}
+
+.contact-item a {
+  text-decoration: none;
+}
+.contact-item a i,
+.contact-item a h3 {
+  transition: all 0.5s;
+}
+.contact-item a:hover i,
+.contact-item a:hover h3 {
+  color: var(--black-color);
+}
+.contact-item a i {
+  font-size: 4.4rem;
+  color: var(--white-color);
+}
+.contact-item a h3 {
+  color: var(--gray-color);
+}
+
 #navBar {
   transition: all 0.5s;
 }

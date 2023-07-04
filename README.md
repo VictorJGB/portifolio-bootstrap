@@ -34,7 +34,10 @@ Personal portfolio using html, scss, javascript and bootstrap
 
 ### Built With
 
-techs used
+ - ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+ - ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+ - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+ - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -42,18 +45,14 @@ techs used
 
 ## Demo
 
-demo url
+[VercelLive](https://portifolio-bootstrap-kappa.vercel.app/)
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
 ### Prerequisites
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+  - Sass installed for better experience( take a look at <a href="https://sass-lang.com/install/" target="_blank">sass installation tutorial</a>)
 
 ### Installation
 

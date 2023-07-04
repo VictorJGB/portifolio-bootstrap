@@ -68,7 +68,11 @@ Personal portfolio using html, scss, javascript and bootstrap
 
 ## Usage
 
-techs version used in the project
+- HTML v5
+- CSS v3
+- Sass v1.63.6
+- Javascript vECMAScript® 2023
+- Bootstrap v5.3
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

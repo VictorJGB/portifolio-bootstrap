@@ -28,7 +28,7 @@
 
 ## About The Project
 
-project description
+Personal portfolio using html, scss, javascript and bootstrap
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

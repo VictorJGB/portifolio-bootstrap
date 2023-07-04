@@ -59,11 +59,7 @@ demo url
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/VictorJGB/repo_name
-   ```
-2. Install NPM packages
-   ```sh
-   npm install
+   git clone https://github.com/VictorJGB/portifolio_bootstrap
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -91,7 +91,7 @@ section {
   font-size: 3.2rem;
   text-decoration: none;
   color: var(--white-color);
-  padding: 5%;
+  padding: 5% 6%;
   border-radius: 60px;
   border: 2px solid transparent;
   transition: all 0.5s;
@@ -114,22 +114,26 @@ section {
 
 .about-info h1 {
   color: var(--tertiary-color);
+  font-size: 3.2rem;
   font-weight: 700;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
 .about-info p {
   color: var(--white-color);
+  font-size: 2rem;
   font-weight: 700;
   text-align: justify;
 }
 
 .about-info .form h2 {
   color: var(--tertiary-color);
+  font-size: 2.8rem;
   font-weight: 700;
 }
 .about-info .form span {
   color: var(--gray-light-color);
+  font-size: 2.2rem;
   font-weight: 700;
   text-align: center;
 }
@@ -137,6 +141,7 @@ section {
 .btn-knowMore {
   padding: 3% 8%;
   color: var(--primary-color);
+  font-size: 2.6rem;
   font-weight: 700;
   text-decoration: none;
   border-radius: 60px;
@@ -179,7 +184,7 @@ section {
   color: var(--gray-color);
 }
 .card-body .container .card-subtitle-wrapper i {
-  font-size: 2.6rem;
+  font-size: 2.8rem;
   color: var(--primary-color);
 }
 .card-body .card-text {

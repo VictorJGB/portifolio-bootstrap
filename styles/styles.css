@@ -114,26 +114,22 @@ section {
 
 .about-info h1 {
   color: var(--tertiary-color);
-  font-size: 3.8rem;
   font-weight: 700;
   -webkit-text-decoration: solid;
           text-decoration: solid;
 }
 .about-info p {
   color: var(--white-color);
-  font-size: 2.6rem;
   font-weight: 700;
   text-align: justify;
 }
 
 .about-info .form h2 {
   color: var(--tertiary-color);
-  font-size: 3.2rem;
   font-weight: 700;
 }
 .about-info .form span {
   color: var(--gray-light-color);
-  font-size: 2.6rem;
   font-weight: 700;
   text-align: center;
 }
@@ -141,7 +137,6 @@ section {
 .btn-knowMore {
   padding: 3% 8%;
   color: var(--primary-color);
-  font-size: 3.8rem;
   font-weight: 700;
   text-decoration: none;
   border-radius: 60px;
@@ -179,7 +174,7 @@ section {
   color: var(--secondary-color);
 }
 .card-body .container .card-subtitle-wrapper .card-subtitle {
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 500;
   color: var(--gray-color);
 }
@@ -332,7 +327,7 @@ section {
   color: var(--white-color);
 }
 .contact-item a h3 {
-  color: var(--gray-color);
+  color: var(--white-color);
 }
 
 #navBar {

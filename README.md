@@ -39,6 +39,56 @@ Personal portfolio using html, scss, javascript and bootstrap
  - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
  - ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+### Color palette
+
+<table>
+      <tr>
+         <th>Color</th>
+         <th>Hex</th>
+         <th>🎨</th>
+      </tr>
+      <tr>
+         <td>Primary Color</td>
+         <td>#715aff</td>
+         <td><img src="https://placeholder.pics/svg/20x20/715aff/FFFFFF/primaryColor" /></td>
+      </tr>
+      <tr>
+         <td>Secondary Color</td>
+         <td>#502ea3</td>
+         <td><img src="https://placeholder.pics/svg/20x20/502ea3/FFFFFF/secondaryColor" /></td>
+      </tr>
+      <tr>
+         <td>Tertiary Color</td>
+         <td>#d9ca18</td>
+         <td><img src="https://placeholder.pics/svg/20x20/d9ca18/000000/tertiaryColor" /></td>
+      </tr>
+      <tr>
+         <td>White Color</td>
+         <td>#ffffff</td>
+         <td><img src="https://placeholder.pics/svg/20x20/ffffff/000000/whiteColor" /></td>
+      </tr>
+      <tr>
+         <td>Black Color</td>
+         <td>#000</td>
+         <td><img src="https://placeholder.pics/svg/20x20/000/ffffff/blackColor" /></td>
+      </tr>
+      <tr>
+         <td>Gray Color</td>
+         <td>#848482</td>
+         <td><img src="https://placeholder.pics/svg/20x20/848482/ffffff/grayColor" /></td>
+      </tr>
+      <tr>
+         <td>Gray Light Color</td>
+         <td>#cecece</td>
+         <td><img src="https://placeholder.pics/svg/20x20/cecece/000000/grayLightColor" /></td>
+      </tr>
+      <tr>
+         <td>Black Shadow Color</td>
+         <td>#00000080</td>
+         <td><img src="https://placeholder.pics/svg/20x20/00000080/ffffff/blackShadowColor" /></td>
+      </tr>
+   </table>
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- Live -->

@@ -60,6 +60,7 @@ Personal portfolio using html, scss, javascript and bootstrap
    ```sh
    git clone https://github.com/VictorJGB/portifolio_bootstrap
    ```
+2. Use the <a href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer" target="_blank">Live Server Plugin</a> for better experience (Optional)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

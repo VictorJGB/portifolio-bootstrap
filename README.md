@@ -47,6 +47,12 @@ Personal portfolio using html, scss, javascript and bootstrap
 
 [VercelLive](https://portifolio-bootstrap-kappa.vercel.app/)
 
+### Screenshots
+![portifolio01](https://github.com/VictorJGB/portifolio-bootstrap/assets/62398638/5367f671-2e24-4a16-a564-302b69d6a348)
+![portifolio02](https://github.com/VictorJGB/portifolio-bootstrap/assets/62398638/a9bb7e4d-930f-49e7-aaa3-aa96454cc70f)
+
+
+
 <!-- GETTING STARTED -->
 
 ## Getting Started

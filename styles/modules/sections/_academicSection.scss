@@ -2,12 +2,14 @@
 
 #academic {
   background-color: var(--white-color);
+  height: 100vh;
+  width: 100%;
 }
 
 .academic-cards-container {
   .academic-title {
     font-weight: 700;
-    font-size: 3.8rem;
+    font-size: 3.2rem;
     color: var(--primary-color);
     text-transform: uppercase;
   }
@@ -17,7 +19,7 @@
   text-align: start;
 
   .card-title {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     font-weight: 600;
     color: var(--secondary-color);
   }
@@ -46,7 +48,11 @@
 }
 
 // responsive layout
-@include media-breakdown-below(md) {
+@media (max-width: 768px) {
+  #academic {
+    height: 150vh;
+  }
+
   .card-body .card-title {
     font-size: 2.6rem;
   }

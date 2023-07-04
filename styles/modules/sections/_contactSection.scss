@@ -13,7 +13,8 @@ section {
   background-color: var(--secondary-color);
 }
 
-.contact-item a {
+.contact-item a,
+.contact-item div {
   text-decoration: none;
 
   i,

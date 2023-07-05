@@ -90,7 +90,6 @@ section {
   font-size: 3.2rem;
   text-decoration: none;
   color: var(--white-color);
-  padding: 5% 6%;
   border-radius: 60px;
   border: 2px solid transparent;
   transition: all 0.5s;

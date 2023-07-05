@@ -46,7 +46,8 @@
         <h1 class="h1 fw-bold">Central de Mensagens</h1>
         <button
           class="header-btn btn btn-danger gap-3 d-none d-sm-flex align-items-center justify-content-between"
-          onclick="clearStorage()"
+          data-bs-toggle="modal"
+          data-bs-target="#clearForm"
         >
           <i class="bx bxs-eraser"></i><span class="fw-semibold">Excluir</span>
         </button>
@@ -56,10 +57,65 @@
     <main
       class="main-content h-100 w-100 container py-3 d-flex flex-column align-items-center justify-content-around"
     >
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="clearForm"
+        tabindex="-1"
+        aria-labelledby="clearFormLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header bg-danger">
+              <h1
+                class="modal-title"
+                id="clearFormLabel"
+              >
+                Excluir mensagens
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <span class="fw-bold text-black">Atenção:</span>
+                esta ação irá apagar todas as mensagens existentes, esse
+                processo é
+                <span class="text-danger fw-bold"> irreversível</span>
+              </p>
+              <p>Deseja continuar?</p>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary fw-semibold"
+                data-bs-dismiss="modal"
+              >
+                Fechar
+              </button>
+              <button
+                type="button"
+                class="btn btn-danger fw-semibold"
+              >
+                Excluir
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Modal -->
+
       <!-- speeddial -->
       <button
         type="button"
         class="speeddial btn btn-danger rounded-circle d-block d-sm-none shadow"
+        data-bs-toggle="modal"
+        data-bs-target="#clearForm"
       >
         <i class="bx bxs-eraser"></i>
       </button>
@@ -79,5 +135,12 @@
         </div>
       </div>
     </main>
+
+    <!-- Importing the bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

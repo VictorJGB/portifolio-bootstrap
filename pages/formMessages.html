@@ -45,13 +45,39 @@
         ></a>
         <h1 class="h1 fw-bold">Central de Mensagens</h1>
         <button
-          class="header-btn btn btn-danger gap-2 d-none d-sm-flex align-items-center justify-content-between"
+          class="header-btn btn btn-danger gap-3 d-none d-sm-flex align-items-center justify-content-between"
           onclick="clearStorage()"
         >
-          <i class="bx bxs-eraser"></i>Excluir
+          <i class="bx bxs-eraser"></i><span class="fw-semibold">Excluir</span>
         </button>
       </div>
     </nav>
     <!-- Header -->
+    <main
+      class="main-content h-100 w-100 container py-3 d-flex flex-column align-items-center justify-content-around"
+    >
+      <!-- speeddial -->
+      <button
+        type="button"
+        class="speeddial btn btn-danger rounded-circle d-block d-sm-none shadow"
+      >
+        <i class="bx bxs-eraser"></i>
+      </button>
+      <!-- speeddial -->
+
+      <div class="message-card container w-100 p-4 rounded shadow">
+        <div class="container w-100 p-4 text-start"><h1>Titulo</h1></div>
+        <div class="container w-100 p-4 text-center">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+            assumenda nobis nam, temporibus porro magni velit itaque! Placeat
+            quisquam aliquam eaque totam, possimus rerum provident quas,
+            temporibus reiciendis laudantium ipsa, asperiores doloremque
+            repellat officiis! Optio quo quibusdam aspernatur exercitationem
+            pariatur.
+          </p>
+        </div>
+      </div>
+    </main>
   </body>
 </html>

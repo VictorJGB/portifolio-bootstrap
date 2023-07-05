@@ -1,0 +1,48 @@
+.form-msg-navbar .container {
+  a {
+    i {
+      transition: all 0.5s;
+    }
+
+    &:hover {
+      i {
+        color: var(--primary-color);
+      }
+    }
+  }
+  h1 {
+    font-size: 2.8rem;
+  }
+}
+
+.header-btn {
+  i,
+  span {
+    font-size: 2.4rem;
+  }
+}
+
+.main-content {
+  position: relative;
+}
+
+.speeddial {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+
+  height: 6rem;
+  width: 6rem;
+
+  i {
+    font-size: 3.2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-msg-navbar .container {
+    h1 {
+      font-size: 2.2rem;
+    }
+  }
+}

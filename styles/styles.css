@@ -35,6 +35,7 @@ section {
   --black-color: #000;
   --gray-color: #848482;
   --gray-light-color: #cecece;
+  --form-message-card: #f3f3f3;
   --black-shadow-color: rgb(0, 0, 0, 0.5);
   /* Font */
   --font-base: "Poppins", sans-serif;
@@ -474,6 +475,41 @@ section {
 @media (max-width: 960px) {
   #projects {
     height: 150vh;
+  }
+}
+.form-msg-navbar .container a i {
+  transition: all 0.5s;
+}
+.form-msg-navbar .container a:hover i {
+  color: var(--primary-color);
+}
+.form-msg-navbar .container h1 {
+  font-size: 2.8rem;
+}
+
+.header-btn i,
+.header-btn span {
+  font-size: 2.4rem;
+}
+
+.main-content {
+  position: relative;
+}
+
+.speeddial {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  height: 6rem;
+  width: 6rem;
+}
+.speeddial i {
+  font-size: 3.2rem;
+}
+
+@media (max-width: 576px) {
+  .form-msg-navbar .container h1 {
+    font-size: 2.2rem;
   }
 }
 .tech-description-container .tech-title {

@@ -28,7 +28,7 @@
 
 ## About The Project
 
-Personal portfolio using html, scss, javascript and bootstrap
+<h3>Personal portfolio using html, scss, javascript and bootstrap</h3>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

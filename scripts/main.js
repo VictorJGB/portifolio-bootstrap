@@ -7,9 +7,9 @@ const sections = document.querySelectorAll('section');
 const navLi = document.querySelectorAll('.navbar .container .collapse ul li');
 
 // form consts
-const footerForm = document.querySelector('#footerForm');
 const emailInput = document.querySelector('#emailControl');
 const messageInput = document.querySelector('#messageControl');
+
 var userMessages = [];
 
 // Header change color on scroll from top
@@ -47,9 +47,11 @@ window.addEventListener('scroll', () => {
 });
 
 // form messages handler
-function onSubmit() {
+function onSubmit(event) {
+  // previnindo reload da pagina ao submeter
+  event.preventDefault;
+
   if (!localStorage.getItem('userMessage') && userMessages.length > 0) {
-    console.log('array esvaziado');
     userMessages = [];
   }
 
@@ -63,5 +65,9 @@ function onSubmit() {
   userMessages.push(userMessageObject);
 
   localStorage.setItem('userMessage', JSON.stringify(userMessages));
-  console.log(localStorage.getItem('userMessage'));
+
+  $('#formModal').modal('show');
+
+  emailInput.value = '';
+  messageInput.value = '';
 }

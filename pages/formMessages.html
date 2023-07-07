@@ -36,16 +36,17 @@
       class="form-msg-navbar navbar navbar-expand-lg fixed-top shadow"
     >
       <div
-        class="container px-4 d-flex align-items-center justify-content-between"
+        class="container-fluid px-4 d-flex align-items-center justify-content-between"
       >
         <a
           class="navbar-brand"
-          href="#"
+          href="../index.html"
+          title="Voltar"
           ><i class="bx bxs-left-arrow-circle"></i
         ></a>
         <h1 class="h1 fw-bold">Central de Mensagens</h1>
         <button
-          class="header-btn btn btn-danger gap-3 d-none d-sm-flex align-items-center justify-content-between"
+          class="header-btn btn btn-danger gap-3 d-none d-md-flex align-items-center justify-content-between"
           data-bs-toggle="modal"
           data-bs-target="#clearForm"
         >
@@ -56,7 +57,7 @@
     <!-- Header -->
     <main
       id="mainContent"
-      class="main-content h-100 w-100 container d-flex flex-column align-items-center justify-content-center"
+      class="main-content h-100 w-100 container-fluid p-4 d-flex flex-column align-items-center justify-content-center"
     >
       <!-- Modal -->
       <div
@@ -116,7 +117,7 @@
       <!-- speeddial -->
       <button
         type="button"
-        class="speeddial btn btn-danger rounded-circle d-block d-sm-none shadow"
+        class="speeddial btn btn-danger rounded-circle d-block d-md-none shadow"
         data-bs-toggle="modal"
         data-bs-target="#clearForm"
       >
@@ -125,8 +126,9 @@
       <!-- speeddial -->
       <div
         id="cardsContainer"
-        class="h-100 w-100 container py-3 d-flex flex-column align-items-center justify-content-evenly text-start"
+        class="w-100 container-fluid d-flex flex-column align-items-center justify-content-evenly text-center"
       >
+        <!-- Javascript cards -->
         <!-- Javascript cards -->
       </div>
     </main>

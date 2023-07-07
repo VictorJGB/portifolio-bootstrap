@@ -1057,7 +1057,8 @@
         class="d-flex h-100 flex-wrap justify-content-between align-items-center p-3"
       >
         <form
-          onsubmit="onSubmit()"
+          onsubmit="onSubmit(event)"
+          name="footerForm"
           id="footerForm"
           class="col-12 col-md-4 py-4 d-flex flex-column align-items-center justify-content-center"
         >
@@ -1071,7 +1072,10 @@
               type="email"
               class="form-control"
               id="emailControl"
+              name="emailInput"
               placeholder="name@example.com"
+              autocomplete="off"
+              required
             />
           </div>
           <div class="input-wrapper mb-3">
@@ -1083,13 +1087,14 @@
             <textarea
               class="form-control"
               id="messageControl"
+              name="messageInput"
               rows="3"
+              required
             ></textarea>
           </div>
           <button
             class="btn btn-primary w-100"
             data-bs-toggle="modal"
-            data-bs-target="#formModal"
             type="submit"
           >
             Enviar
@@ -1165,6 +1170,13 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- jQuery script -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
       crossorigin="anonymous"
     ></script>
   </body>

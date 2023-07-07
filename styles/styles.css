@@ -508,16 +508,33 @@ section {
   font-size: 1.6rem;
 }
 
+#cardsContainer {
+  height: 80%;
+}
+
 #cardsContainer .no-message-title {
   font-size: 2.2rem;
   color: var(--gray-color);
   text-align: center;
 }
 
+#cardsContainer .message-card .card-header {
+  border-bottom: 1px solid var(--secondary-color);
+}
+#cardsContainer .message-card .card-header .card-header-title {
+  font-size: 2.8rem;
+  color: var(--secondary-color);
+}
+#cardsContainer .message-card .card-body .card-body-text {
+  font-size: 2rem;
+  color: var(--black-color);
+  text-align: justify;
+}
+
 .speeddial {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
+  bottom: 5%;
+  right: 5%;
   height: 6rem;
   width: 6rem;
 }
@@ -525,9 +542,20 @@ section {
   font-size: 3.2rem;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .form-msg-navbar .container h1 {
     font-size: 2.2rem;
+  }
+  #cardsContainer .message-card .card-body {
+    overflow-y: scroll;
+  }
+  #cardsContainer .message-card .card-body .card-body-text {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 576px) {
+  #cardsContainer .message-card .card-body .card-body-text {
+    font-size: 1.4rem;
   }
 }
 .tech-description-container .tech-title {

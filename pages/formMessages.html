@@ -55,7 +55,8 @@
     </nav>
     <!-- Header -->
     <main
-      class="main-content h-100 w-100 container py-3 d-flex flex-column align-items-center justify-content-around"
+      id="mainContent"
+      class="main-content h-100 w-100 container d-flex flex-column align-items-center justify-content-center"
     >
       <!-- Modal -->
       <div
@@ -122,21 +123,16 @@
         <i class="bx bxs-eraser"></i>
       </button>
       <!-- speeddial -->
-
-      <div class="message-card container w-100 p-4 rounded shadow">
-        <div class="container w-100 p-4 text-start"><h1>Titulo</h1></div>
-        <div class="container w-100 p-4 text-center">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-            assumenda nobis nam, temporibus porro magni velit itaque! Placeat
-            quisquam aliquam eaque totam, possimus rerum provident quas,
-            temporibus reiciendis laudantium ipsa, asperiores doloremque
-            repellat officiis! Optio quo quibusdam aspernatur exercitationem
-            pariatur.
-          </p>
-        </div>
+      <div
+        id="cardsContainer"
+        class="h-100 w-100 container py-3 d-flex flex-column align-items-center justify-content-evenly text-start"
+      >
+        <!-- Javascript cards -->
       </div>
     </main>
+
+    <!-- main script -->
+    <script src="../scripts/formMessages.js"></script>
 
     <!-- Importing the bootstrap JS -->
     <script

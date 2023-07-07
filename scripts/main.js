@@ -48,20 +48,20 @@ window.addEventListener('scroll', () => {
 
 // form messages handler
 function onSubmit() {
+  if (!localStorage.getItem('userMessage') && userMessages.length > 0) {
+    console.log('array esvaziado');
+    userMessages = [];
+  }
+
   const emailValue = emailInput.value;
   const messageValue = messageInput.value;
 
-  let userMessageObject = {
+  var userMessageObject = {
     email: emailValue,
     message: messageValue,
   };
-
   userMessages.push(userMessageObject);
 
   localStorage.setItem('userMessage', JSON.stringify(userMessages));
-
-  const getUserMessages = localStorage.getItem('userMessage');
-  const userMessage = JSON.parse(getUserMessages);
-
-  console.log(userMessage);
+  console.log(localStorage.getItem('userMessage'));
 }

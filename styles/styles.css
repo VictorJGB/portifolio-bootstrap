@@ -508,6 +508,12 @@ section {
   font-size: 1.6rem;
 }
 
+#cardsContainer .no-message-title {
+  font-size: 2.2rem;
+  color: var(--gray-color);
+  text-align: center;
+}
+
 .speeddial {
   position: absolute;
   bottom: 10%;
